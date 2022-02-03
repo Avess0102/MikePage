@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MIKE</title>
+    <link rel="stylesheet" href="assets/styles/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Montserrat:wght@500&family=Playfair+Display:wght@900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="row">
+        <div class="col-lg-4 mike col-md-5">
+          <h1>MIKE</h1>
+          <div class="mobile mt-5">
+            <iframe src="assets/images/Mobile/Search.svg" width="25px" height="20px"></iframe>
+            <iframe src="assets/images/Mobile/Cart.svg" width="25px" height="20px"></iframe>
+            <button type="button" class="rounded-circle" name="button">0</button>
+            <iframe src="assets/images/Mobile/MenuHamburger.svg" width="25px" height="20px"></iframe>
+          </div>
+          <div class="social">
+            <button type="button" name="button"> <iframe src="assets/images/Mobile/Facebook.svg" width="28px" height="30px"></iframe> </button>
+            <button type="button" name="button"> <iframe src="assets/images/Mobile/Twitter.svg" width="28px" height="30px"></iframe> </button>
+            <button type="button" name="button"> <iframe src="assets/images/Mobile/Instagram.svg" width="28px" height="30px"></iframe> </button>
+          </div>
+        </div>
+
+        <div class="col-lg-7 col-md-7 mt-3 mb-4">
+          <div class="black">
+            <input type="search" placeholder="search" class="px-5 py-1 my-3" >
+            <iframe class="mt-4" src="assets/images/Web/Search.svg" width="100px" height="20px"></iframe>
+            <iframe class="mt-4" src="assets/images/Web/Cart.svg" width="25px" height="50px" class="mr-5"></iframe>
+            <button type="button" class="rounded-circle" name="button">0</button>
+            <iframe class="mt-4 " src="assets/images/Web/MenuHamburger.svg" width="25px" height="50px" class="mr-5"></iframe>
+          </div>
+
+          <div class="body">
+            <nav class="py-1 px-1"  aria-label="breadcrumb">
+              <ol class="breadcrumb crumb">
+                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                <li class="breadcrumb-item"><a href="#">Shoes</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Gray Running Sneakers</li>
+              </ol>
+            </nav>
+
+            <div class="heading">
+                <h1>Black Running Sneakers</h1>
+            </div>
+
+            <div class="image">
+              <img src="assets/images/Web/ShoeLarge.png" class="web" alt="">
+              <img src="assets/images/Mobile/ShoeSmall.png" class="mobile" alt="">
+            </div>
+
+            <div class="star my-4">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+              <a class="ml-5" href="#">18 votes</a>
+            </div>
+
+            <div class="price py-1">
+              <h2>₹16,959.99</h2>
+              <h4>₹20,069.99</h4>
+            </div>
+
+            <div class="content py-1">
+              <p>Neoprene and membrane boots. Rubber insert with lacing over foot and back on heel. Lining and insole of the membrane</p>
+            </div>
+
+            <div class="features">
+                <div class="feature-content">
+                  <p>COLOR</p>
+                  <div class="color">
+                    <button class="btn btn-dark" type="button" name="button">&#10003;</button>
+                    <button class="btn btn-secondary" type="button" name="button">&nbsp</button>
+                    <button class="btn btn-danger" type="button" name="button">&nbsp</button>
+                  </div>
+                </div>
+                <div class="feature-content">
+                  <p>SIZE</p>
+                  <div class="selector">
+                    <select id="size" name="size">
+                      <option value="48">  48</option>
+                      <option value="50">  50</option>
+                      <option value="52">  52</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="feature-content">
+                  <p>QUANTITY</p>
+                  <div class="counter">
+                      <button onclick="increment()">+</button>
+                      <p class="mt-2 px-5" id="counting"> </p>
+                      <button onclick="decrement()">-</button>
+                  </div>
+                </div>
+            </div>
+
+            <div class="button-grp mb-5">
+                <button type="button" class="button px-4 py-3"> <iframe src="assets/images/Web/AddToCart.svg" width="34px" height="18px" class="mt-1"> </iframe> Add to Cart</button>
+                <button type="button" class="button2 px-4 py-3"> <iframe src="assets/images/Web/Like.svg" width="34px" height="18px" class="mt-1"> </iframe> Save to Wishlist</button>
+            </div>
+
+            <div class="b content">
+              <p>Standard delivery in 2-4 days or Premium delivery in 2-4 hours</p>
+            </div>
+          </div>
+
+          <footer>
+            <button type="button" name="button"> <iframe src="assets/images/Mobile/Facebook.svg" width="30px" height="30px"></iframe> </button>
+            <button type="button" name="button"> <iframe src="assets/images/Mobile/Twitter.svg" width="30px" height="30px"></iframe> </button>
+            <button type="button" name="button"> <iframe src="assets/images/Mobile/Instagram.svg" width="30px" height="30px"></iframe> </button>
+          </footer>
+
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/ec5081cbc2.js" crossorigin="anonymous"></script>
+
+    <script>
+      var data = 3;
+      document.getElementById("counting").innerText = data;
+      function increment() {
+          data = data + 1;
+          document.getElementById("counting").innerText = data;
+      }
+      function decrement() {
+          data = data - 1;
+          document.getElementById("counting").innerText = data;
+      }
+    </script>
+
+  </body>
+</html>
